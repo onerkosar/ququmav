@@ -41,3 +41,5 @@ th{color:var(--muted);font-weight:600}
 .foot{border-top:1px solid var(--line);margin-top:48px;padding:16px 0;color:var(--muted);font-size:14px}
 .foot p{margin:6px 0}
 @media (max-width:420px){.card{flex-direction:column}.grid{grid-template-columns:1fr}}
+.meta a{font-size:12px;padding:2px 8px;border:1px solid var(--link);border-radius:99px;color:var(--link);text-decoration:none;font-weight:600}
+.meta a:hover{background:var(--link);color:#fff}
